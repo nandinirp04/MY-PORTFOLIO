@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Nandini</title>
+  <link rel="icon" href="Assets/logo.ico" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Assets/css/styles.css" </head>
+
+<body>
+
+
+  <!-- Desktop Navbar -->
+  <div class="nav_bar">
+    <ul>
+      <br>
+      <span>Navigate:</span>
+      <br>
+      <br>
+      <!-- <li><img class="logo" src="Assets/home icon.png" alt="Logo"> <a href="#">Home</a></li>
+      <li><img class="logo" src="Assets/about me.webp" alt="Logo"> <a href="#About Me"
+        onclick="scrollToSection('#About Me')">About Me</a></li>
+    
+
+      <li><img class="logo" src="Assets/project.png" alt="Logo"> <a href="#project"
+          onclick="scrollToSection('#project')">Projects</a></li>
+      <li><img class="logo" src="Assets/code.png" alt="Logo"> <a href="#what">What I Know</a></li>
+      <li><img class="logo" src="Assets/more.png" alt="Logo"> <a href="#more">More</a></li>
+      <br> -->
+      <li><img class="logo" src="Assets/home icon.png" alt="Logo"> <a href="#home" onclick="scrollToSection('#home')">Home</a></li>
+      <li><img class="logo" src="Assets/about me.webp" alt="Logo"> <a href="#about" onclick="scrollToSection('#about')">About Me</a></li>
+      <li><img class="logo" src="Assets/project.png" alt="Logo"> <a href="#project" onclick="scrollToSection('#project')">Projects</a></li>
+      <li><img class="logo" src="Assets/code.png" alt="Logo"> <a href="#what" onclick="scrollToSection('#what')">What I Know</a></li>
+      <li><img class="logo" src="Assets/more.png" alt="Logo"> <a href="#more">More</a></li>
+     
+      <br>
+      <span>Socials:</span>
+      <!-- Adding more list items for demonstration purposes -->
+      <li><img class="logo" src="Assets/instagram.jpeg" alt="Logo"> <a
+          href="https://www.instagram.com/nandu_0174/?igsh=MWVtdWp3aHRsZGUxNQ%3D%3D">Instagram</a></li>
+      <li><img class="logo" src="Assets/github.jpeg" alt="Logo"> <a href="https://github.com/nandinirp04">Github</a></li>
+      <li><img class="logo" src="Assets/linkdin.png" alt="Logo"> <a
+          href="https://www.linkedin.com/in/nandini-pingalkar-822200245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkdin</a>
+      </li>
+      <!-- <li><img class="logo" src="Assets/twitter.png" alt="Logo"> <a
+          href="https://twitter.com/i/flow/login?redirect_after_login=%2Fyahskaamrahs">Twitter</a></li> -->
+
+    </ul>
+  </div>
+
+
+
+
+
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-content">
+
+      <!-- Contact button -->
+      <button class="contact-btn" onclick="sendEmail()">
+        Contact Me <img class="logo" src="Assets/contact me.jpeg" alt="Logo">
+      </button>
+      <div class="menu-btn" onclick="toggleNav()">&#9776;</div>
+      <!-- Green circles -->
+      <div class="green-circle"></div>
+      <div class="green-circle" style="left: 73px;"></div>
+    </div>
+
+
+     <!--Mobile Navigation Bar-->
+    <nav id="nav">
+      <ul>
+        <span>Navigate:</span>
+        <br>
+        <br>
+        <li><img class="logo" src="Assets/home.png" alt="Logo"> <a href="#">Home</a>
+        </li>
+        <li><img class="logo" src="Assets/folder.png" alt="Logo"> <a href="#About Me">About Me</a></li>
+
+
+        <li><img class="logo" src="Assets/projects.png" alt="Logo"> <a href="#project"
+            onclick="scrollToSection('#project')">Projects</a></li>
+        <li><img class="logo" src="Assets/what.png" alt="Logo"> <a href="#what">What I Know</a></li>
+        <li><img class="logo" src="Assets/more.png" alt="Logo"> <a href="#more">More</a></li>
+        <br>
+        <span>Socials:</span>
+        <!-- Adding more list items for demonstration purposes -->
+        <li><img class="logo" src="Assets/instagram.jpeg" alt="Logo"> <a
+            href="https://www.instagram.com/nandu_0174/?igsh=MWVtdWp3aHRsZGUxNQ%3D%3D
+            ">Instagram</a></li>
+        <li><img class="logo" src="Assets/github.jpeg" alt="Logo"> <a href="https://github.com/nandinirp04">Github</a>
+        </li>
+        <li><img class="logo" src="Assets/linkdin.png" alt="Logo"> <a
+            href="https://www.linkedin.com/in/nandini-pingalkar-822200245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkdin</a>
+        </li>
+        <!-- <li><img class="logo" src="Assets/twitter.png" alt="Logo"> <a
+            href="https://twitter.com/i/flow/login?redirect_after_login=%2Fyahskaamrahs">Twitter</a></li> -->
+
+      </ul>
+      <div class="close-btn" onclick="toggleNav()">X</div>
+    </nav>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Profile Container -->
+  <div class="container" id="project">
+    <div class="background-image"></div>
+
+    <div class="background">
+      <div class="profile-photo"></div>
+      <div class="profile-text">
+        <h1>Nandini Raju Pingalkar</h1>
+        <h5>@nandinirp04</h5>
+      </div>
+      <button class="insta-btn" id="downloadButton">
+        <img class="logo" src="Assets/cv.png" alt="Logo" id="downloadButton"> Download Resume
+      </button>
+    </div>
+  </div>
+
+      <!--  About Me Section   -->
+
+      <div id="About">
+        <div  class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="Assets/Nandini portfolio.jpeg" alt="">
+            </div>
+             <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p> At the intersection of technology and leadership, my path as a Student at MIT College  forges ahead.
+             With a focus on frontend development, I am developing the technical acumen necessary for a future in web
+              development. The foundational commerce education from Vasantrao Naik Mahavidyalaya complements my current
+               studies, as I blend analytical prowess with coding skills.
+
+            soft skills and technical skills stand as pillars in my educational journey, guiding me to excel in 
+            collaborative environments and lead with clarity. As I progress towards earning my Bachelor's in Computer
+             Application, my goal is to harness these competencies to make meaningful contributions to the tech industry 
+             upon graduation.</p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+                  <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                  <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                  <ul>
+                    <li><span>Web development</span><br>Website development</li>
+                    <li><span>Teaching</span><br>Teaching Academic Syllabus </li>
+                    <li><span>Canvas</span><br>Desigining Web interfaces</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                  <ul>
+                    <li><span>web project</span><br>Current Project</li>
+                    <li><span>Teaching</span><br>Teaching Academic Syllabus to above 5th standerd </li>
+                    <li><span>Web development</span><br>Website development</li>
+                    
+                    <!-- <li><span>Canvas</span><br>Desigining Web interfaces</li> -->
+                  </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                  <ul>
+                    <li><span>2023</span><br>12th Completed in Commerce Stream</li>
+                    <li><span>2024</span><br>BCA FY</li>
+                    <li><span>Currect(2024-25)</span><br>BCA Sy</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+       </div>
+      </div>
+
+
+   <!--Main Projects Section-->
+
+  <section id="container-section">
+    <h2>Projects</h2>
+    <div class="project-container" onclick="redirectTo('https://github.com/nandinirp04/Age-Calculater-by-using-js.git')">
+      <img src="Assets/Age Calculater.png" alt="Age Calculater">
+      <div class="content">
+        <h3>Age Calculater</h3>
+        <p>HTML , CSS, JavaScript</p>
+      </div>
+    </div>
+
+    <div class="project-container" onclick="redirectTo('https://github.com/nandinirp04/Embrace-the-joy-of-randomness-Creating-a-Random-Emojis-with-javascript.git')">
+      <img src="Assets/emoji.jpg" alt="Image 2">
+      <div class="content">
+        <h3>Creating Rendom Emojis</h3>
+        <p>Html,css,JavaScript</p>
+      </div>
+    </div> 
+
+    <div class="project-container" onclick="redirectTo('https://github.com/nandinirp04/Double-click-heart-animation-using-js-.git')">
+      <img src="Assets/giphy.gif" alt="Image 3">
+      <div class="content">
+        <h3>Double Click Animation</h3>
+        <p>Html,CSS,JavaScript</p>
+      </div>
+    </div>
+
+    <!-- <div class="project-container" onclick="redirectTo('https://github.com/yahskamrahs/facedetection')">
+      <img src="tumb/face.jpg" alt="Image 4">
+      <div class="content">
+        <h3>Face Detection</h3>
+        <p>Python , OpenCV , Yolov8</p>
+      </div> -->
+    </div>
+
+
+    <div class="clearfix"></div>
+  </section>
+
+
+
+ <!--What I Know Section-->
+  <div class="container-section" id="what">
+    <div class="main-section">
+      <h2>What I know</h2>
+      <div class="main-container">
+        <h2>Frontent</h2>
+        <div class="word ">HTML</div>
+        <div class="word red">CSS</div>
+        <div class="word yellow">JavaScript</div>
+        
+      </div>
+      <div class="main-container">
+        <h2>Backend</h2>
+        <!-- <div class="word gray">Java</div> -->
+        <!-- <div class="word green">PHP</div> -->
+        <div class="word ">JavaScript</div>
+        <!-- <div class="word red">Python</div> -->
+        <div class="word yellow">C</div>
+        <div class="word css">C++</div>
+      </div>
+      <!-- <div class="main-container">
+        <h2>Database</h2>
+        <div class="word orange">SQL</div>
+        <div class="word green">MySql</div>
+        <div class="word gray">MongoDB</div> -->
+
+      </div>
+      <div class="main-container">
+        <h2>Others</h2>
+
+        <div class="word gray">Github</div>
+        <div class="word orange">Accounting</div>
+        <div class="word red">Excel</div>
+        <!-- <div class="word python">LabelImg</div> -->
+        <!-- <div class="word blue">Yolov8</div> -->
+        <!-- <div class="word purple">OpenCV</div> -->
+      </div>
+
+
+
+
+
+
+       <!--Blender Projects Container-->
+      <!-- <div class="min-container">
+        <h2>Blender Projects</h2>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/blenderSnow'">
+          <div class="list-logo" style="background-image: url('Assets/snow-globe.png');"></div>
+          <div class="list-content">
+            <h3>Snow House</h3>
+            <p>Blender , 3D Animation</p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/blendercoffe'">
+          <div class="list-logo" style="background-image: url('Assets/coffee.png');"></div>
+          <div class="list-content">
+            <h3>Coffe Shop</h3>
+            <p>Blender , 3D Animation</p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/blenderFactory'">
+          <div class="list-logo" style="background-image: url('Assets/factory-machine.png');"></div>
+          <div class="list-content">
+            <h3>Factory Machine</h3>
+            <p>Blender, 3D Animation </p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/blenderGlass'">
+          <div class="list-logo" style="background-image: url('Assets/bottle.png');"></div>
+          <div class="list-content">
+            <h3>Eco-System in World</h3>
+            <p>Blender, 3D Animation </p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="clearfix"></div>
+   -->
+
+ <!--Web Projects Section-->
+  <div class="blender-section" id="more">
+    <h2>Web Projects</h2>
+    <div class="blender-main">
+      <div class="box" onclick="window.location.href='https://github.com/nandinirp04/Flappy-Bird-Game.git'">
+        <img src="Assets/bird.jpeg" alt="Image 1">
+        <div class="box-content">
+          <h3>Flappy-Bird-Game</h3>
+
+        </div>
+      </div>
+      <!-- <div class="box" onclick="window.location.href=' https://yahskamrahs.github.io/docuguard/'">
+        <img src="tumb/guard.jpg" alt="Image 2">
+        <div class="box-content">
+          <h3>Docu Guardian</h3>
+         
+           <p>&#9679; 1,678</p> 
+           <p>&#9679; 23 day ago</p> 
+        </div> -->
+      <!-- </div>
+      <div class="box" onclick="window.location.href='https://yahskamrahs.github.io/tictactoe/'">
+        <img src="tumb/tictactoe.jpg" alt="Image 1">
+        <div class="box-content">
+          <h3>Tic Tac Toe</h3>
+         
+          <p>&#9679; 1,098</p> 
+          <p>&#9679; 24 day ago</p> 
+        </div>
+      </div> -->
+      <!-- <div class="box" onclick="window.location.href='https://yahskamrahs.github.io/justcompare/'">
+        <img src="tumb/justcompare.png" alt="Image 2">
+        <div class="box-content">
+          <h3>Just Compare</h3>
+        
+          <p>&#9679; 1,174</p> 
+          <p>&#9679; 27 day ago</p> 
+        </div>
+      </div> -->
+    </div>
+  </div>
+  </div>
+
+
+ <!--Frontend Projects  Section-->
+  <div class="blender-section" id="more">
+    <h2> Frontend Projects</h2>
+    <div class="blender-main">
+      
+      <div class="box" onclick="window.location.href='https://github.com/nandinirp04/Age-Calculater-by-using-js.git'">
+        <img src="Assets/Age Calculater.png" alt="Image 1">
+        <div class="box-content">
+          <h3>Age Calculater</h3>
+          
+          <p>&#9679; 1,897</p> <!--Single word paragraph -->
+          <p>&#9679; 9 day ago</p> <!--Single word paragraph -->
+        </div>
+      </div>
+      <div class="box" onclick="window.location.href='https://github.com/nandinirp04/Embrace-the-joy-of-randomness-Creating-a-Random-Emojis-with-javascript.git'">
+        <img src="Assets/emoji.jpg" alt="Image 1">
+        <div class="box-content">
+          <h3>Creating-a-Random-Emojis</h3>
+         
+          <p>&#9679; 1,897</p> <!-- Single word paragraph -->
+          <p>&#9679; 8 day ago</p> <!-- Single word paragraph -->
+        </div>
+      </div>
+         <div class="box" onclick="window.location.href='https://github.com/nandinirp04/Double-click-heart-animation-using-js-.git'">
+        <img src="Assets/giphy.gif" alt="Image 1">
+        <div class="box-content">
+          <h3>Double-click-heart-animation-using-js-</h3>
+         
+          <p>&#9679; 1,897</p> <!-- Single word paragraph -->
+          <!-- <p>&#9679; 4 day ago</p> Single word paragraph -->
+        <!-- </div>
+      </div>
+      <div class="box" onclick="window.location.href='https://github.com/yahskamrahs/Weather-App'">
+        <img src="tumb/weather-app.jpg" alt="Image 1">
+        <div class="box-content">
+          <h3>Weather App</h3>
+          
+          <p>&#9679; 1,897</p> 
+          <p>&#9679; 6 day ago</p>  
+        </div>
+      </div>
+      <div class="box" onclick="window.location.href='https://github.com/yahskamrahs/Face-ID-Attendance-'">
+        <img src="tumb/attendance.jpg" alt="Image 1">
+        <div class="box-content">
+          <h3>Face ID Attendance</h3>
+          
+          <p>&#9679; 1,897</p> 
+          <p>&#9679; 1 day ago</p>  
+        </div>
+      </div> --> -->
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+ 
+
+
+ <!--Project Files Container-->
+  <!-- <div class="file-section" id="file">
+    <div class="main-section">
+      <h2>College Files</h2>
+
+      <div class="file-container">
+        <h2>Project Files</h2>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/hackathon'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Hackthon</h3>
+            <p>2 items | 18 Nov 2023</p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/translate'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>HTML Project</h3>
+            <p>3 items | 14 Dec 2023</p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://github.com/yahskamrahs/int'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Web Project</h3>
+            <p>7 items | April 28 </p>
+
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        <div class="list" onclick="window.location.href='https://example.com/'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Java Project<h3>
+            <p>0 items | unknown </p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+      </div>
+
+
+
+  <!--Other Files Container-->
+      <!-- <div class="file-container">
+        <h2>Other Files</h2>
+
+        <div class="list" onclick="window.location.href='https://example.com/'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Music</h3>
+            <p>182 items | Feb 29</p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+
+        <div class="list" onclick="window.location.href='https://example.com/'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Anime</h3>
+            <p>&infintie; items | 1 Jan 2020</p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+
+        <div class="list" onclick="window.location.href='https://example.com/'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>DCIM</h3>
+            <p>29 items | 04 May 2019 </p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+
+        <div class="list" onclick="window.location.href='https://example.com/'">
+          <div class="file-logo" style="background-image: url('Assets/file-management.png');"></div>
+          <div class="file-content">
+            <h3>Downloads</h3>
+            <p>999+ items | May 5 </p>
+          </div>
+          <div class="arrow">&#x3E;</div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <script src="script.js"></script>
+<script>
+
+// var tablelinks = document.getElementsByClassName("tab-links");
+//   var tabcontents = document.getElementsByClassName("tab-contents");
+//   function opentab(tabname){
+//     for(tablink of tablinks){
+//       tablink.classList.remove("active-link");
+//     }
+//     for(tabcontent of tabcontents){
+//       tabcontents.classList.remove("active-tab");
+//     }
+//     event.currentTarget.classList.add("active-link");
+//   }
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab (tabname) {
+
+for (tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+
+for(tabcontent of tabcontents) {
+  tabcontent.classList.remove("active-tab");
+}
+ event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+<div class="nav_bar">
+  <ul>
+      <li><img class="logo" src="Assets/home icon.png" alt="Logo"> <a href="#home" onclick="scrollToSection('#home')">Home</a></li>
+      <li><img class="logo" src="Assets/about me.webp" alt="Logo"> <a href="#about" onclick="scrollToSection('#about')">About Me</a></li>
+      <li><img class="logo" src="Assets/project.png" alt="Logo"> <a href="#project" onclick="scrollToSection('#project')">Projects</a></li>
+      <li><img class="logo" src="Assets/code.png" alt="Logo"> <a href="#what" onclick="scrollToSection('#what')">What I Know</a></li>
+      <li><img class="logo" src="Assets/more.png" alt="Logo"> <a href="#more">More</a></li>
+      <br>
+      <br>
+      <span>Socials:</span>
+      <!-- Adding more list items for demonstration purposes -->
+      <li><img class="logo" src="Assets/instagram.jpeg" alt="Logo"> <a href="https://www.instagram.com/nandu_0174/?igsh=MWVtdWp3aHRsZGUxNQ%3D%3D" target="_blank">Instagram</a></li>
+      <li><img class="logo" src="Assets/github.jpeg" alt="Logo"> <a href="https://github.com/nandinirp04" target="_blank">Github</a></li>
+      <li><img class="logo" src="Assets/linkdin.png" alt="Logo"> <a href="https://www.linkedin.com/in/nandini-pingalkar-822200245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+  </ul>
+</div>
